@@ -30,4 +30,22 @@
 
 
    // memory     Stack (Primitive) , Heap(Non-Primitive)
-   
+   let myName = "Aditi"
+   let anothername = myName
+   anothername = "manu"
+
+   console.log(myName)
+   console.log(anothername)
+
+   let userOne = {
+      email: "abc@google.com",
+      UPI: "user@sbi"
+   }
+
+   let userTwo = userOne
+
+   userTwo.email = "aman@google.com"
+
+   console.log(userOne.email);
+   console.log(userTwo.email);
+
